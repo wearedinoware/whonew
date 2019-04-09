@@ -1,0 +1,70 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#home-content {
+	background: url(../images/Trap3.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% calc(100vh - 90px - 60px);
+	display: flex;
+	flex: 1;
+	height: calc(100vh - 90px - 60px);
+	margin: 90px auto 0 auto;
+	padding: 0 100px 0 100px;
+	width: calc(100% - 100px - 200px);
+}
+
+#home-content .left {
+	align-items: center;
+	display: flex;
+	flex: 1;
+}
+
+#home-content .left h1 {
+	color: #FFFFFF;
+	font-family: "Rubik", sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 53px;
+	margin: 0 0 20px 0;
+	max-width: 400px;
+	padding: 0;
+	text-align: left;
+}
+
+#home-content .left h2 {
+	color: #FFFFFF;
+	font-family: "Rubik", sans-serif;
+	font-size: 25px;
+	font-weight: 200;
+	margin-right: 25px;
+	padding: 0;
+	text-align: left;
+}
+
+#home-content .right {
+	flex: 0;
+}
+
+.home-message {
+	margin-bottom: 30px;
+}
+
+.screen-preview {
+	margin-top: 50px;
+	width: 350px;
+}
+
+.store {
+	height: 45px;
+	margin-right: 15px;
+}
+
+.store-items {
+	display: flex;
+	flex-direction: row;
+	margin: 25px 0 0 0;
+}
