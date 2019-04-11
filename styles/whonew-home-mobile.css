@@ -60,6 +60,10 @@
 		position: fixed;
 	}
 
+	#dinoware {
+		height: 32px;
+	}
+
 	#facebook {
 		height: 30px;
 	}
