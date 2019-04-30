@@ -1,0 +1,19 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			const userAgent = navigator.userAgent.toLowerCase();
+			const ios = userAgent.indexOf("iphone") > -1 || userAgent.indexOf("ipod") > -1;
+			const android = userAgent.indexOf("android") > -1;
+
+			if (ios) {
+				window.location.replace("https://itunes.apple.com/us/app/whonew/id1447834975");
+			} else if (android) {
+				window.location.replace("https://play.google.com/store/apps/details?id=com.wearedinoware.whonew");
+			} else {
+				window.location.replace("/");
+			}
+		</script>
+	</body>
+</html>
